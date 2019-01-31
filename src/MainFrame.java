@@ -126,5 +126,17 @@ public class MainFrame extends JFrame {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 
+        /**
+         * переделать
+         * textField.addKeyListener(new KeyAdapter() {
+         *  public void keyTyped(KeyEvent e) {
+         *  char c = e.getKeyChar();
+         *  if (((c < '0') || (c > '9')) && (c != KeyEvent.VK_BACK_SPACE)) {
+         *  e.consume(); // consume non-numbers
+         *  }
+         *  }
+         *  });
+         */
+
     }
 }
